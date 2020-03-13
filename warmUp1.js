@@ -4,3 +4,22 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+function combine (first , last ) {
+	return first + ' ' + last 
+}
+function multiple (x,y) {
+	if ((x%y)===0) {
+		return true 
+	}
+return false 
+}
+function average (ages) {
+	var sum=0;
+	for (var i=0; i<ages.length;i=i+1){
+		sum = sum + ages[i];
+	}
+return sum/i;
+}
+function age (age) {
+	return age * 365 * 24 * 60 *60 ;
+}
