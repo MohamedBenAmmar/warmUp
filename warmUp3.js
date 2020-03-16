@@ -19,3 +19,29 @@
 
 // 4- Write a function shortestWord that works like longestWord, but returns the shortest word instead.
 
+function larger (x,y){
+	if (x.length > y.length) {
+		return x;
+	} 
+return y;
+}
+function smaller (x,y) {
+	if (x.length < y.length) {
+		return x;
+	}
+return y;
+}
+
+// i did a function that will show us for the first time n and everytime we call it again it gives us n+1
+var i = 0;
+function counter (n){
+	if (i==0) {
+		i=i+1;
+		return n ;
+	}
+else {
+n=n+i;	
+i=i+1;
+return n;
+}
+}
