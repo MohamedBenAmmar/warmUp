@@ -21,4 +21,5 @@ function reverse(arr){
 		arr[i]=arr[n-i];
 		arr[n-i]=x;	
 	}
+	return arr;
 }
